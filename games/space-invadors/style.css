@@ -1,0 +1,36 @@
+.grid{
+   width: 300px;
+   height: 300px;
+   border: solid 1px black;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+.grid div{
+    width: 20px;
+    height: 20px;
+    border: solid 1px red;
+    box-sizing: border-box;
+
+}
+/* making the look of the indors */
+
+.invader{
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.shooter{
+    background-color: green;
+    border-radius: 10px;
+}
+.laser{
+    background-color: orange;
+    border-radius: 10px;
+}
+.boom{
+    background-color: red;
+    border-radius: 10px;
+    
+}

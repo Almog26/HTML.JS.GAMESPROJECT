@@ -1,0 +1,49 @@
+/* CSS code */
+#gameboard {
+    width: 320px;
+    height: 320px; 
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 40px;
+    width: 40px;
+    position: relative;
+}
+
+.beige {
+    background-color: rgb(122, 122, 107);
+}
+
+.brown {
+    background-color: brown;
+}
+
+.square svg {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    position: relative;
+    z-index: -9;
+}
+
+path {
+    position: relative;
+    z-index: -10;
+}
+
+.piece {
+    position: relative;
+    z-index: 99; /* Changed to a higher value */
+}
+/* z index we work to make sure that the pieces are on top of the board  
+and when im over it it show me the piece and when i drop it it also be on top of the screen */
+.black {
+    fill: black;
+}
+
+.white {
+    fill: white;
+}
